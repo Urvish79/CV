@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Dancing+Script:wght@700&family=Fira+Sans:wght@300&family=Source+Code+Pro:wght@300&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    position: absolute;
+    background-color:rgb(180 172 175);
+  
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    height: 668vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 37px;
+
+}
+
+.sidebar nav li {
+    font-size: 20px;
+    list-style: none;
+    padding: 27px 0;
+}
+.sidebar nav li a {
+   text-decoration: none;
+   color: black;
+}
+.sidebar nav li a:hover{
+    background-color: white;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 8px;
+    color: black;
+    padding: 0 10px;
+    
+}
+
+
+.main {
+  
+    width: 900vw;
+}
+
+.container {
+    display: flex;
+
+}
+.infocontainer{
+   
+    height: 50vh;
+    width: 73vw ;
+    margin: 136px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.Hello{
+    font-size: 60px;
+}
+
+.name{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.about{
+    font-size: 35px;
+}
+.moreabout{
+    margin-top: 15px;
+    font-family: 'Abyssinica SIL', serif;
+    font-size: 20px;
+    
+}
+.buttons{
+    margin: 30px 0;
+}
+
+.btn{
+    color: white;
+    background-color:#5f8ee3;
+    padding: 10px 7px;
+    border-radius: 17px;
+    margin: 0 4px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.btn:hover{
+    background-color: white;
+    color: #5f8ee3;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.devPic img{
+    height: 50vh;
+}
+.contactform{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0 61px;
+    padding-top: 22px;
+    font-weight: bold;
+}
+.contactform div{
+    padding: 27px 0;
+}
+
+
+
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+   padding: 22px 0;
+   font-weight: bolder;
+}
+
+#emailHelp{
+    padding: 6px;
+    font-size: 10px;
+    color: #3c3ce0;
+
+}
+.emailaddress{
+    padding: 32px 1px;
+    display: flex;
+    flex-direction: column;
+    margin: -26px 0;
+}
+.emailaddress1{
+    padding: 5px;
+    
+}
+#exampleInputEmail1{
+    width: 21vw;
+    border-radius: 7px;
+    padding: 2px;
+
+
+}
+.Phone{
+    display: flex;
+    flex-direction: column;
+}
+#clientphone{
+    width: 325px;
+    border-radius: 7px;
+    padding: 2px;
+}
+.form-check{
+    margin: 10px -1px;
+    padding: 5px 16px;
+    margin-top: -28px;
+
+}
+#isclient{
+    width: 19px;
+}
+.intro{
+    margin:88px;
+}
+
+
+.intro h2{
+    font-family: 'Dancing Script', cursive;
+    margin: 10px;
+    color: #2359be;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 40px;
+    
+}
+.intro p{
+    font-family: 'Source Code Pro', monospace;
+    margin: 12px;
+    font-weight: bold;
+    color: rgb(41, 44, 45);
+
+
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+   
+}
+.skill{
+    width: 152px;
+    height: 5px;
+    background-color: red;
+    border: 2px solid black;
+}
+.hundred{
+    width: 265px;
+}
+.fifty{
+    width: 125px;
+    background-color: darkblue;
+}
+.t5{
+  width: 75px;  
+  background-color: blueviolet;
+}
+.ten{
+    width: 50px;
+    background-color: yellow;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    font-size: xx-large;
+}
+.cross{
+    margin-left: 99px;
+
+}
+.sidebarGo{
+    transform: translate(-298px, 0px);
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
